@@ -1,22 +1,19 @@
-# la-mia-pizzeria-static
+# la-mia-pizzeria-razor-layout
 
-Ciao ragazzi oggi iniziamo a muovere i primi passi con questo fantastico Asp .Net Core MVC!  
-Dobbiamo realizzare un’applicazione web che ci aiuti a gestire la nostra pizzeria.  
-Abbiamo bisogno di creare la nostra prima pagina (index) per l'amministratore dove mostriamo tutte le pizze che il nostro locale gestisce.  
-Una pizza avrà le seguenti informazioni :  
-> - un nome  
-> - una descrizione 
-> - una foto (url) 
-> - un prezzo
-  
-Modifichiamo quindi la view Index.cshtml generata in automatico da .Net Core scrivendo l’html che serve a noi per mostrare l’elenco delle pizze (possiamo creare una tabella con bootstrap o una qualche grafica a nostro piacimento che mostri l’elenco delle pizze... che sia funzionale e veloce per un amministratore!)  
-Piccolo suggerimento : ricordatevi di inserire il seguente codice all’inizio della vostra view @ { Layout = null; }  
-*BONUS:*   
-Se vi avanza tempo, create anche una landing page per un cliente della vostra pizzeria che vuole vedere le vostre pizze. Chiamiamo questa pagina UserIndex.cshtml e creiamola nella cartella Home delle Views. A questo punto dovete creare all'interno di Controllers > HomeController.cs un metodo  
-  
-    public IActionResult UserIndex()  
-    {  
-	    return View();  
-    }  
-  
-Con il quale ci andremo a far restituire la pagine UserIndex. Questa nuova pagina si troverà all'indirizzo /Home/UserIndex del vostro sito. Potete usare questo link per i vostri <a> tag.
+L’esercitazione di oggi sarà divisa in 2 parti:  
+
+1. una parte ci porterà a fare esercizi con Razor  
+la seconda a fare delle prove con i layout di .Net Core MVC  
+IMPORTANTE:
+Per svolgere questo esercizio e tutti quelli che seguiranno dovrete partire dal vostro progetto nel punto in cui lo avevate lasciato, ma dovete sganciare la vecchia repository git, eliminando la cartella git e tutti i file di git associati.  
+Una volta fatto se voi aprite la vostra soluzione noterete che git non è più configurato e potrete dunque ricreare una nuova repository a partire da dove avevate lasciato il vostro progetto precedente.  
+
+*— PRIMA PARTE —-*  
+> A questo punto, una volta ripulito GIT e creata una nuova repository, per la prima parte riguardante Razor dovete creare un nuovo progetto MVC dentro la vostra soluzione chiamato Razor per svolgere gli esercizi che trovate nel file esercizi-razor.txt  
+Svolgeteli tutti all’interno della view Index del controller HomeController che viene generata di default nel nuovo progetto che avete creato.
+
+*— SECONDA PARTE —-*  
+> Per la seconda parte, ritornate sul progetto sul quale avete lavorato la scorsa volta.  
+Usate questo progetto per fare esercizio con i layout, perciò aprite il progetto della vostra pizzeria in cui lo avevate lasciato e fate esperimenti con i layout.  
+Create dunque un nuovo layout e inserite al suo interno il codice che secondo voi definisce lo scheletro dell’applicazione e che dovrà essere utilizzato in altre pagine future del vostro progetto.  
+
