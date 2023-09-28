@@ -33,9 +33,19 @@
     <span>Risultato: @somma(4)</span>
     <p>
         3. Contare quante volte la lettera a è presente nalla frase "nel mezzo del cammin di nostra vita" e stampare questo valore in pagina
-
     </p>
-
+    @{
+        string frase = "nel mezzo del cammin di nostra vita";
+        int counter = 0;
+        @for(int i = 0;i< frase.Length;i++)
+        {
+            if(frase[i] == 'a')
+            {
+                counter++;
+            }
+        }
+    }
+    <span>Ci sono @counter lettere 'a' nella frase "nel mezzo del cammin di nostra vita"</span>
     <p>
         4. Creare una List<int> di 20 numeri interi (generati random da 1 a 90, 1 e 90 inclusi) e mostrare in pagina solo i numeri compresi tra 20 e 70
 
