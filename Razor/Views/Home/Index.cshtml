@@ -2,16 +2,18 @@
     ViewData["Title"] = "RAZOR";
     Layout = null;
 }
-@*
 
-
-*@
 <main>
     <p>
         1. Dichiarare una variabile valorizzandola con il nostro nome.
         Dichiarare un'altra variabile valorizzandola con il nostro cognome.
         Stampare il nostro nome e cognome all'interno di un tag h2.
     </p>
+    @{
+        string myName = "Leonardo";
+        string mySurname = "Serra";
+    }
+    <h2>@myName @mySurname</h2>
 
     <p>
         2. Creare una funzione che stampa la somma dei numeri che vanno da 1 a n (con n passato come parametro - n incluso)
