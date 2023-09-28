@@ -12,15 +12,7 @@ Una volta fatto se voi aprite la vostra soluzione noterete che git non è più c
 *— PRIMA PARTE —-*  
 > A questo punto, una volta ripulito GIT e creata una nuova repository, per la prima parte riguardante Razor dovete creare un nuovo progetto MVC dentro la vostra soluzione chiamato Razor per svolgere gli esercizi che trovate nel file esercizi-razor.txt  
 Svolgeteli tutti all’interno della view Index del controller HomeController che viene generata di default nel nuovo progetto che avete creato.
-
-*— SECONDA PARTE —-*  
-> Per la seconda parte, ritornate sul progetto sul quale avete lavorato la scorsa volta.  
-Usate questo progetto per fare esercizio con i layout, perciò aprite il progetto della vostra pizzeria in cui lo avevate lasciato e fate esperimenti con i layout.  
-Create dunque un nuovo layout e inserite al suo interno il codice che secondo voi definisce lo scheletro dell’applicazione e che dovrà essere utilizzato in altre pagine future del vostro progetto.
-
-
-
-
+  
       Razor.txt  
       1. Dichiarare una variabile valorizzandola con il nostro nome.
       Dichiarare un'altra variabile valorizzandola con il nostro cognome.
@@ -35,3 +27,9 @@ Create dunque un nuovo layout e inserite al suo interno il codice che secondo vo
       b. che giorno della settimana è oggi (il risultato dovrà essere il nome del giorno (Lunedì, Martedì, ...)
       c. che giorno della settimana sarà nello stesso giorno e mese di oggi ma tra un anno (il risultato dovrà essere il nome del giorno (Lunedì, Martedì, ...)
 
+
+
+*— SECONDA PARTE —-*  
+> Per la seconda parte, ritornate sul progetto sul quale avete lavorato la scorsa volta.  
+Usate questo progetto per fare esercizio con i layout, perciò aprite il progetto della vostra pizzeria in cui lo avevate lasciato e fate esperimenti con i layout.  
+Create dunque un nuovo layout e inserite al suo interno il codice che secondo voi definisce lo scheletro dell’applicazione e che dovrà essere utilizzato in altre pagine future del vostro progetto.
